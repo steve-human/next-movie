@@ -6,7 +6,6 @@ import SideMenu from "../components/side-menu";
 import { getCategories, getMovies } from "../actions";
 
 const Home = ({ movies, images, categories, errorMessage }) => {
-  console.log(images);
   return (
     <div>
       <Head>
